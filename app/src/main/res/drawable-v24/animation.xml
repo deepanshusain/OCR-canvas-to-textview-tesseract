@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/image71"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image72"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image890"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image891"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image892"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image893"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image894"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image895"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image896"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image897"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image898"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image899"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image900"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image901"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image902"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image903"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image904"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image905"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image906"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image907"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image908"
+        android:duration="200"/>
+
+    <item android:drawable="@drawable/image909"
+        android:duration="1000"/>
+
+
+</animation-list>

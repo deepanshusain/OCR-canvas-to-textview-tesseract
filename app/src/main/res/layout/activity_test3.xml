@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3"
+    android:background="@color/yellow"
+    >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        android:includeFontPadding="true"
+        android:layout_marginLeft="50dp"
+        android:text="क"
+        android:textSize="60dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/c"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        android:includeFontPadding="true"
+        android:layout_marginLeft="210dp"
+        android:text="ख"
+        android:textSize="60dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/d"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        android:includeFontPadding="true"
+        android:layout_marginLeft="210dp"
+        android:text="ग"
+        android:textSize="60dp"
+        android:id="@+id/b"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        android:includeFontPadding="true"
+        android:layout_marginLeft="50dp"
+        android:text="च"
+        android:textSize="60dp"
+        android:id="@+id/a"
+        android:layout_marginTop="70dp"
+        />
+
+</RelativeLayout>

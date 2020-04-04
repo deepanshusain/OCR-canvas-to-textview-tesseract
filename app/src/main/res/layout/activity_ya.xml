@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YAActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:layout_constraintVertical_weight="1"
+            >
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:id="@+id/output"
+                android:textColor="@android:color/white"
+                android:textSize="80dp"
+                />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="120dp"
+                android:id="@+id/show"
+                android:textColor="@color/black"
+                android:textSize="80dp"
+                android:layout_alignParentRight="true"
+                android:hint="Text"
+                />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/clear"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="280dp"
+                android:background="@color/red"
+                />
+
+            <Button
+                android:id="@+id/verify"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <com.example.tesseractmodule3.View.WritingView
+                android:id="@+id/writingview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                app:layout_constraintRight_toRightOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

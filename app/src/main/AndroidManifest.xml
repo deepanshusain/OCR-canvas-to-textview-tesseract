@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tesseractmodule3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Test8"></activity>
+        <activity android:name=".Test7" />
+        <activity android:name=".Test6" />
+        <activity android:name=".Test5" />
+        <activity android:name=".Test4" />
+        <activity android:name=".Test3" />
+        <activity android:name=".Test2" />
+        <activity android:name=".Test1" />
+        <activity android:name=".LASTActivity" />
+        <activity android:name=".PAActivity" />
+        <activity android:name=".HAActivity" />
+        <activity android:name=".SAActivity" />
+        <activity android:name=".SSAActivity" />
+        <activity android:name=".SHAActivity" />
+        <activity android:name=".VAActivity" />
+        <activity android:name=".LAActivity" />
+        <activity android:name=".RAActivity" />
+        <activity android:name=".YAActivity" />
+        <activity android:name=".MAActivity" />
+        <activity android:name=".BHAActivity" />
+        <activity android:name=".BAActivity" />
+        <activity android:name=".PHAActivity" />
+        <activity android:name=".NAActivity" />
+        <activity android:name=".DDHAActivity" />
+        <activity android:name=".DDAActivity" />
+        <activity android:name=".TTHAActivity" />
+        <activity android:name=".TTAActivity" />
+        <activity android:name=".DNAActivity" />
+        <activity android:name=".DHAActivity" />
+        <activity android:name=".DAActivity" />
+        <activity android:name=".THAActivity" />
+        <activity android:name=".TAActivity" />
+        <activity android:name=".JHAActivity" />
+        <activity android:name=".JAActivity" />
+        <activity android:name=".CHHAActivity" />
+        <activity android:name=".CHAActivity" />
+        <activity android:name=".GHAActivity" />
+        <activity android:name=".GAActivity" />
+        <activity android:name=".KHAActivity" />
+        <activity android:name=".KAActivity" />
+        <activity android:name=".AUActivity" />
+        <activity android:name=".AIActivity" />
+        <activity android:name=".RIActivity" />
+        <activity android:name=".AEActivity" />
+        <activity android:name=".OActivity" />
+        <activity android:name=".UUActivity" />
+        <activity android:name=".UActivity" />
+        <activity android:name=".EEActivity" />
+        <activity android:name=".EActivity" />
+        <activity android:name=".AAActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

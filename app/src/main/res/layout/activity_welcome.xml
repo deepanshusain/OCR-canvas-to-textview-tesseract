@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/backgroundnotebookpage"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="casual"
+        android:shadowColor="@color/lightgrey"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="ज्ञात"
+        android:textColor="@color/black"
+        android:textSize="130dp"
+        android:id="@+id/gyat"
+        />
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/sprkbtn"
+        android:layout_below="@+id/gyat"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:sparkbutton_activeImage="@drawable/image909"
+        app:sparkbutton_inActiveImage="@drawable/image71"
+        app:sparkbutton_iconSize="120dp"
+        app:sparkbutton_primaryColor="@color/spark_secondary_color"
+        app:sparkbutton_secondaryColor="@color/spark_primary_color"
+        app:sparkbutton_animationSpeed="0.5"
+        />
+
+</RelativeLayout>
